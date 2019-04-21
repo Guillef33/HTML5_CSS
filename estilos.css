@@ -1,0 +1,85 @@
+body  {
+background:linear-gradient(100deg, #a8679d, #191414);
+font-family: 'Roboto', sans-serif;
+display: grid;
+ grid-template-columns: 20% 80%;
+
+}
+
+header  {
+list-style: none;
+width: 100%;
+background-color: black;
+height: 100%;
+margin-left: 30%;
+
+}
+
+#logo {
+width: 40%;
+padding: 5%;
+margin: 5%;
+}
+
+ul {
+list-style: none;
+margin: -10%;
+margin-top: 10%;
+
+}
+
+li {
+color:white;
+}
+
+.menu-principal  {
+height: auto;
+
+}
+
+.menu-principal a {
+  color: white; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.menu-principal a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.menu-principal a.active {
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+main {
+width: 100%;
+margin-left: 10%;
+display: grid;
+height: 1000px;
+align-content: center;
+margin-top: 4%;
+}
+
+.galeria {
+height: 400px;
+ align-content: center;
+}
+
+.galeria1 {
+height: 400px;
+ align-content: center;
+}
+
+h1  {
+color: white;
+
+}
+
+
+h2  {
+color: white;
+margin-top: 100px;
+
+}
